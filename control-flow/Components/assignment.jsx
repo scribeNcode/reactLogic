@@ -13,3 +13,11 @@ export const numPrinter = ()=>{
 }
 
 
+// Write a function findLargest that takes three numbers as arguments and returns the largest of the three.
+
+export function findLargest(a,b,c){
+    let highestNum = Math.max(a,b,c)
+    console.log(highestNum)
+}
+
+
